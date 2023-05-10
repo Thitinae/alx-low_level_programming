@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * last_index - returns the last index of a string (counts the null char)
