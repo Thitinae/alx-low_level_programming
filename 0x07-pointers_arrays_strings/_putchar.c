@@ -1,21 +1,13 @@
-#include "holberton.h"
+#include <unistd.h>
 
 /**
- * *_memset - fills memory with a constant byte.
- * @s: pointer to put the constant
- * @b: constant
- * @n: max bytes to use
- * Return: s
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-
-char *_memset(char *s, char b, unsigned int n)
+int _putchar(char c)
 {
-
-for (unsigned int i = 0; n > 0 ; i++, n--)
-{
-	s[i] = b;
-}
-
-return (s);
+	return (write(1, &c, 1));
 }
