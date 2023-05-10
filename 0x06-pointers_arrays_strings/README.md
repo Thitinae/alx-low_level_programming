@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #TASKS
 0. strcat
 mandatory
@@ -122,3 +123,6 @@ Each line ends with a new line \n
 If size is 0 or less, the output should be a new line only \n
 You are allowed to use the standard library
 The output should look like the following example, and formatted exactly the same way:
+=======
+Added: C - More pointers, arrays and strings
+>>>>>>> 683ec2c37e7500785685e7bbfea0ee92e7fc79ba
